@@ -80,7 +80,7 @@ Status: Cracked
 Time: < 1 second
 ```
 
-![MD5 Hash Cracked](screenshots/md5-cracked.png)
+![MD5 Hash Cracked](screenshots/rule1.png)
 
 ---
 
@@ -102,7 +102,7 @@ Status: Cracked
 Time: < 1 second
 ```
 
-![SHA1 Hash Cracked](screenshots/sha1-cracked.png)
+![SHA1 Hash Cracked](screenshots/rule2.png)
 
 ---
 
@@ -124,7 +124,7 @@ Status: Cracked
 Time: < 1 second
 ```
 
-![NTLM Hash Cracked](screenshots/ntlm-cracked.png)
+![NTLM Hash Cracked](screenshots/rule3.png)
 
 ---
 
@@ -147,7 +147,7 @@ hashcat -m 0 -a 0 md5.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat
 | Substitute `a→3` | `p3ssword` |
 | Reverse | `drowssap` |
 
-![Rule-Based Attack](screenshots/rule-attack.png)
+![Rule-Based Attack](screenshots/rule4.png)
 
 ---
 
@@ -221,4 +221,4 @@ hashcat -m 0 -a 0 md5.txt /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat
 - [x] Rule-based attack tested
 - [x] Findings documented
 - [x] MITRE ATT&CK mapping completed
-- [ ] Screenshots captured and pushed
+- [x] Screenshots captured and pushed
